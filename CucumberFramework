@@ -1,0 +1,22 @@
+1. Create Maven Project and add all the dependencies in pom.xml
+   - Selenium, Cucumber, JUnit5, Log4j, Apache POI, Extent Reports and commons-io
+   - maven-compiler-plugin, maven-surefire-plugin
+
+2. Folder Structure
+   - src/test/java
+       - factory       	  	- BaseClass
+       - pagesObjects     	- PageObjectClasses
+       - stepDefinitions  	- Hooks and StepDefinitionClasses
+       - testRunner       	- TestRunnerClass
+       - utilities        	- DataReaderClass
+   - src/tet/resources
+       - features			- feature files
+       - log4j2.xml	
+       - config.properties
+       - extent.properties
+   - logs
+   - reports
+   - testData
+   - pom.xml
+
+3. 
